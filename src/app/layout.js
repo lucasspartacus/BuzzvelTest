@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Buzzvel test",
   icons: {
-    icon: '../../public/favicon.ico',
+    icon: '/favicon.ico',  
   },
   description: "SEO optimized SPA built with Next.js App Router",
 };
