@@ -2,6 +2,7 @@ import React from 'react';
 import { PageImages } from './images/PageImages';
 import Image from 'next/image';
 import GroupPeople from '../components/images/Right.png';
+import Card from './utils/Card';
 
 export default function CoolFeatures() {
   return (

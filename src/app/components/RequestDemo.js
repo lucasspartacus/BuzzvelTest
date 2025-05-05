@@ -21,6 +21,8 @@ export default function RequestDemo() {
               className="md:w-full w-[102%] px-5 py-3 rounded-lg text-black placeholder-[##A6A6A6] bg-white "
               required
             />
+
+            {/* Message Field */}
             <label className="text-left">Message</label>
             <textarea
               placeholder="What are you say ?"
@@ -28,6 +30,8 @@ export default function RequestDemo() {
               className="md:w-full w-[102%] px-5 py-3 rounded-lg text-black placeholder-[#A6A6A6] resize-none bg-white"
               required
             />
+            
+              {/* Submit Button */}
            <div className="flex justify-center">
             <button
                 type="submit"
